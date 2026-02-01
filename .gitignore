@@ -1,0 +1,37 @@
+# Frontend (Node.js/Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vercel
+
+# Backend (Python)
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+backend/.pytest_cache/
+
+# Android (Bubblewrap/Gradle)
+android/*.keystore
+android/*.jks
+android/*.aab
+android/*.apk
+android/.gradle/
+android/build/
+android/app/build/
+
+# IDE / System
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db

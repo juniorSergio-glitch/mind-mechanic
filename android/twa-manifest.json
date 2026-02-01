@@ -1,0 +1,20 @@
+{
+  "packageId": "com.mecanicadamente.twa",
+  "host": "mecanica-da-mente.vercel.app",
+  "name": "Mecânica da Mente",
+  "launcherName": "Mecânica",
+  "display": "standalone",
+  "themeColor": "#000000",
+  "navigationColor": "#000000",
+  "backgroundColor": "#000000",
+  "startUrl": "/",
+  "iconUrl": "https://mecanica-da-mente.vercel.app/icon.png",
+  "maskableIconUrl": "https://mecanica-da-mente.vercel.app/icon.png",
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "generatorApp": "bubblewrap-cli"
+}
