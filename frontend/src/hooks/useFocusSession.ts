@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { toast } from 'sonner';
 import { useGameStore } from '@/store/gameStore';
-
-const API_URL = 'http://localhost:8000';
+import { API_URL } from '@/lib/api';
 
 interface FocusSession {
   id: string;

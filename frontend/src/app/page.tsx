@@ -21,7 +21,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchStatus = async () => {
       try {
-        const res = await fetch('http://localhost:8000/user/status');
+        const res = await fetch(`${API_URL}/user/status`);
         if (res.ok) {
           const data = await res.json();
           syncWithBackend(data);

@@ -11,6 +11,10 @@ interface MobileLayoutProps {
 export function MobileLayout({ children, title = "Mecânica da Mente" }: MobileLayoutProps) {
   const pathname = usePathname();
 
+  useEffect(() => {
+    console.log('🔌 [API Config] Conectando em:', API_URL);
+  }, []);
+
   const navItems = [
     { icon: Home, label: 'Home', href: '/' },
     { icon: Zap, label: 'Turbo', href: '/turbo' },

@@ -5,10 +5,9 @@ import { MobileLayout } from '@/components/layout/MobileLayout';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
-import { Send, CheckSquare, Trash2, BrainCircuit } from 'lucide-react';
+import { CheckSquare, Trash2, BrainCircuit, Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
-
-const API_URL = 'http://localhost:8000';
+import { API_URL } from '@/lib/api';
 
 interface Task {
   id: string;

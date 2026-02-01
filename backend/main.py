@@ -10,6 +10,7 @@ app = FastAPI()
 # Configure CORS
 origins = [
     "http://localhost:3000",
+    "*", # Allow all origins for production (Vercel)
 ]
 
 app.add_middleware(
