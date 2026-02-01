@@ -1,7 +1,10 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect } from 'react';
 import { Home, Zap, Activity, User } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { API_URL } from '@/lib/api';
 
 interface MobileLayoutProps {
   children: React.ReactNode;
